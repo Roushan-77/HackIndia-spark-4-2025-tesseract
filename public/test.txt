@@ -1,0 +1,63 @@
+import { useNavigate } from "react-router-dom";
+
+const Home = () => {
+  const navigate = useNavigate();
+
+  const goToNextPage = () => {
+    navigate("/next");
+  };
+
+  return (
+    
+    <div style={{width: 1520, height: 670, position: 'relative', background: 'white', overflow: 'hidden'}}>
+  <div style={{width: 28, height: 36, left: -375, top: 212, position: 'absolute', background: 'linear-gradient(180deg, rgba(155.88, 237.28, 165.38, 0.50) 0%, rgba(36.29, 111.20, 45.03, 0.50) 100%)', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)', borderRadius: 9999}} />
+  <div style={{width: 2339.89, height: 1433.23, left: -291.29, top: -680, position: 'absolute', transform: 'rotate(25deg)', transformOrigin: 'top left', background: 'linear-gradient(93deg, rgba(89.04, 236.57, 179.28, 0.20) 53%, rgba(9.20, 77.91, 61.42, 0.20) 77%)', borderRadius: 30, border: '1.50px white solid', backdropFilter: 'blur(100px)'}} />
+  <div style={{width: 894, height: 169, left: 6, top: 326, position: 'absolute', textAlign: 'center', color: '#0E624E', fontSize: 60, fontFamily: 'Cairo', fontWeight: '500', wordWrap: 'break-word', textShadow: '7px 6px 10px rgba(255, 255, 255, 0.40)'}}>Mental Health <br/></div>
+  <div style={{width: 894, height: 169, left: 6, top: 386, position: 'absolute', textAlign: 'center', color: '#0E624E', fontSize: 60, fontFamily: 'Cairo', fontWeight: '500', wordWrap: 'break-word', textShadow: '7px 6px 10px rgba(255, 255, 255, 0.40)'}}>Website</div>
+  <div style={{width: 814.03, height: 93.32, left: 903.59, top: 602.45, position: 'absolute', transform: 'rotate(-64deg)', transformOrigin: 'top left', background: 'radial-gradient(ellipse 111.41% 111.41% at 75.87% 22.22%, #59EDB3 0%, #357A30 66%, black 100%), #D9D9D9', borderRadius: 90}} />
+  <div style={{width: 145.70, height: 97.08, left: 901.50, top: 560.89, position: 'absolute', transform: 'rotate(-37deg)', transformOrigin: 'top left', background: 'radial-gradient(ellipse 111.41% 111.41% at 86.94% 22.45%, #59EDB3 0%, #357A30 66%)'}} />
+  <div style={{width: 813.44, height: 93.75, left: 1188.77, top: 695.64, position: 'absolute', transform: 'rotate(-64deg)', transformOrigin: 'top left', background: 'radial-gradient(ellipse 111.41% 111.41% at 75.87% 22.22%, #59EDB3 0%, #357A30 66%, black 100%), #D9D9D9', borderRadius: 90}} />
+  <div style={{width: 146.52, height: 96.19, left: 1183.61, top: 663.08, position: 'absolute', transform: 'rotate(-37deg)', transformOrigin: 'top left', background: 'radial-gradient(ellipse 111.41% 111.41% at 86.94% 22.45%, #59EDB3 0%, #357A30 66%)'}} />
+  <div style={{width: 813.44, height: 93.75, left: 1455.62, top: 817.27, position: 'absolute', transform: 'rotate(-64deg)', transformOrigin: 'top left', background: 'radial-gradient(ellipse 111.41% 111.41% at 75.87% 22.22%, #59EDB3 0%, #357A30 66%, black 100%), #D9D9D9', borderRadius: 90}} />
+  <div style={{width: 146.52, height: 96.19, left: 1453.25, top: 776.68, position: 'absolute', transform: 'rotate(-37deg)', transformOrigin: 'top left', background: 'radial-gradient(ellipse 111.41% 111.41% at 86.94% 22.45%, #59EDB3 0%, #357A30 66%)'}} />
+  <div style={{width: 816.06, height: 90.70, left: 1417.14, top: 539.91, position: 'absolute', transform: 'rotate(296deg)', transformOrigin: 'top left', background: 'radial-gradient(ellipse 111.41% 111.41% at 75.87% 22.22%, #59EDB3 0%, #357A30 66%), #D9D9D9', borderRadius: 90}} />
+  <div style={{width: 121.98, height: 118.67, left: 1833.13, top: -50.28, position: 'absolute', transform: 'rotate(187deg)', transformOrigin: 'top left', background: 'radial-gradient(ellipse 111.41% 111.41% at 75.87% 22.22%, #59EDB3 0%, #357A30 66%)', borderRadius: 9999}} />
+  <div style={{width: 816.06, height: 90.70, left: 1149.39, top: 418.37, position: 'absolute', transform: 'rotate(296deg)', transformOrigin: 'top left', background: 'radial-gradient(ellipse 111.41% 111.41% at 75.87% 22.22%, #59EDB3 0%, #357A30 66%), #D9D9D9', borderRadius: 90}} />
+  <div style={{width: 121.98, height: 118.67, left: 1565.38, top: -171.82, position: 'absolute', transform: 'rotate(187deg)', transformOrigin: 'top left', background: 'radial-gradient(ellipse 111.41% 111.41% at 75.87% 22.22%, #59EDB3 0%, #357A30 66%)', borderRadius: 9999}} />
+  <div style={{width: 816.06, height: 90.70, left: 1030.84, top: 1387.07, position: 'absolute', transform: 'rotate(296deg)', transformOrigin: 'top left', background: 'radial-gradient(ellipse 111.41% 111.41% at 75.87% 22.22%, #59EDB3 0%, #357A30 66%), #D9D9D9', borderRadius: 90}} />
+  <div style={{width: 121.98, height: 118.67, left: 1446.84, top: 796.88, position: 'absolute', transform: 'rotate(187deg)', transformOrigin: 'top left', background: 'radial-gradient(ellipse 111.41% 111.41% at 75.87% 22.22%, #59EDB3 0%, #357A30 66%)', borderRadius: 9999}} />
+  <div style={{width: 815.90, height: 90.81, left: 575.48, top: 1327.10, position: 'absolute', transform: 'rotate(296deg)', transformOrigin: 'top left', background: 'radial-gradient(ellipse 111.41% 111.41% at 75.87% 22.22%, #59EDB3 0%, #357A30 66%, black 100%), #D9D9D9', borderRadius: 90}} />
+  <div style={{width: 815.67, height: 90.73, left: 860.65, top: 1420.46, position: 'absolute', transform: 'rotate(296deg)', transformOrigin: 'top left', background: 'radial-gradient(ellipse 111.41% 111.41% at 75.87% 22.22%, #59EDB3 0%, #357A30 66%, black 100%), #D9D9D9', borderRadius: 90}} />
+  <div style={{width: 815.67, height: 90.73, left: 1127.50, top: 1542.09, position: 'absolute', transform: 'rotate(296deg)', transformOrigin: 'top left', background: 'radial-gradient(ellipse 111.41% 111.41% at 75.87% 22.22%, #59EDB3 0%, #357A30 66%, black 100%), #D9D9D9', borderRadius: 90}} />
+  <div style={{width: 816.06, height: 90.70, left: 763.09, top: 1265.53, position: 'absolute', transform: 'rotate(296deg)', transformOrigin: 'top left', background: 'radial-gradient(ellipse 111.41% 111.41% at 75.87% 22.22%, #59EDB3 0%, #357A30 66%), #D9D9D9', borderRadius: 90}} />
+  <div style={{width: 121.98, height: 118.67, left: 1179.09, top: 675.34, position: 'absolute', transform: 'rotate(187deg)', transformOrigin: 'top left', background: 'radial-gradient(ellipse 111.41% 111.41% at 75.87% 22.22%, #59EDB3 0%, #357A30 66%)', borderRadius: 9999}} />
+  <div style={{width: 80.75, height: 168.95, left: 1217.50, top: 409.07, position: 'absolute', transform: 'rotate(49deg)', transformOrigin: 'top left', background: 'radial-gradient(ellipse 111.41% 111.41% at 75.87% 22.22%, #59EDB3 0%, #357A30 66%)', borderRadius: 9999}} />
+  <div style={{width: 80.75, height: 168.95, left: 1485.25, top: 530.61, position: 'absolute', transform: 'rotate(49deg)', transformOrigin: 'top left', background: 'radial-gradient(ellipse 111.41% 111.41% at 75.87% 22.22%, #59EDB3 0%, #357A30 66%)', borderRadius: 9999}} />
+  <div style={{width: 1512, height: 140, left: 0, top: 0, position: 'absolute', background: 'rgba(255, 255, 255, 0.20)', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)'}} />
+  {/* <div style={{width: 313, height: 80, left: 269, top: 512, position: 'absolute', background: 'linear-gradient(94deg, #59EDB3 0%, #43A969 25%, #31712D 63%)', borderRadius: 200}} /> */}
+  <div >
+      <button
+      onClick={goToNextPage}
+       type="button" className="btn1 btn-light"  style={{left: 426, top: 522,width: 313, height: 80, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 32, fontFamily: 'Cairo', fontWeight: '700', wordWrap: 'break-word', textShadow: '0px 4px 4px rgba(0, 0, 0, 0.40)'}} href="/button" >
+        LET'S START</button>
+        LET'S START</div>
+</div>
+  
+  );
+};
+
+export default Home;
+
+
+//  </div>
+//     <label htmlFor="exampleDataList" className="form"></label> 
+//         <input className="form" style={{fontSize:'22px'}} list="datalistOptions" id="exampleDataList" placeholder="Choose a nickname..." />
+//       <button
+//       onClick={goToNextPage}
+//        type="button" className="btn1 btn-light"  style={{fontSize:'12px'}} href="/button" >
+//         SUBMIT</button>
+//   </div>  
+
+
+
+// style={{left: 336, top: 522, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 32, fontFamily: 'Cairo', fontWeight: '700', wordWrap: 'break-word', textShadow: '0px 4px 4px rgba(0, 0, 0, 0.40)'}}
