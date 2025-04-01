@@ -16,3 +16,4 @@ def get_nickname():
     return nick_name
 
 call_name = get_nickname()
+
