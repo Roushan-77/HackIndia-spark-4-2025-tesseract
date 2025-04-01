@@ -4,6 +4,7 @@ from chat_bot import chatbot
 from story import read_story
 from breathing import breathing_exercise
 from meditation import meditation
+from music import play_music
 
 def main():
     while True:
@@ -14,7 +15,8 @@ def main():
         print("4. Listen to a Story")
         print("5. Breathing Exercise")
         print("6. Meditation Session")
-        print("7. Exit")
+        print("7. listen music")
+        print("8. Exit")
 
         choice = input("\nPlease enter your choice (1-7): ")
 
@@ -29,8 +31,10 @@ def main():
         elif choice == '5':
             breathing_exercise()  
         elif choice == '6':
-            meditation() 
+            meditation()
         elif choice == '7':
+            play_music() 
+        elif choice == '8':
             print("🌟 Exiting... Take care and stay strong!")
             break  
         else:
