@@ -78,7 +78,7 @@ Goal 3 - Good Health and Well-being
  copy the following command 
 
  ```sh
- git clone https://github.com/Roushan-77/mental-health-ai.git
+ git clone https://github.com/Roushan-77/HackIndia-spark-4-2025-tesseract.git
  ```
 
 ## command to add , commit and push your work 
