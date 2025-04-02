@@ -40,9 +40,6 @@ const Page3b = () => {
     <div data-style="Avatar" style={{width: 40, height: 40, left: 1296, top: 45, position: 'absolute', background: 'var(--Schemes-Primary-Container, #EADDFF)', overflow: 'hidden', borderRadius: 100}}>
       <div style={{width: 28.18, height: 25.63, left: 5.91, top: 10, position: 'absolute', background: 'var(--Schemes-On-Primary-Container, #4F378A)'}} />
     </div>
-    {/* <div style={{width: 81, height: 27, left: 493, top: 45, position: 'absolute', color: 'white', fontSize: 24, fontFamily: 'Inter', fontWeight: '500', wordWrap: 'break-word'}}>Music</div> */}
-    {/* <div style={{width: 116, height: 27, left: 644, top: 45, position: 'absolute', color: 'white', fontSize: 24, fontFamily: 'Inter', fontWeight: '500', wordWrap: 'break-word'}}>Check-up</div> */}
-    {/* <div style={{width: 99, height: 45, left: 50, top: 40, position: 'absolute', color: 'black', fontSize: 32, fontFamily: 'Ledger', fontWeight: '400', wordWrap: 'break-word'}}>logo</div> */}
     <div style={{width: 5.02, height: 18.48, left: 1222.77, top: 68.50, position: 'absolute', transform: 'rotate(30deg)', transformOrigin: 'top left', background: '#AA75CB'}} />
     <div style={{width: 5.02, height: 18.48, left: 1213.34, top: 84.39, position: 'absolute', transform: 'rotate(-150deg)', transformOrigin: 'top left', background: '#73488D'}} />
     <div style={{width: 5.02, height: 18.48, left: 1238.15, top: 84.48, position: 'absolute', transform: 'rotate(150deg)', transformOrigin: 'top left', background: '#73488D'}} />
@@ -59,8 +56,6 @@ const Page3b = () => {
         <div></div>
       </div>
     </div>
-    <div style={{width: 65, height: 12, left: 1048, top: 82, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 13, fontFamily: 'Inder', fontWeight: '400', wordWrap: 'break-word'}}>Mood Score</div>
-    {/* <div style={{width: 123, height: 27, left: 830, top: 45, position: 'absolute', color: 'white', fontSize: 24, fontFamily: 'Inter', fontWeight: '500', wordWrap: 'break-word'}}>Quick help</div> */}
     <div style={{width: 252.08, height: 84, left: 630, top: 588, position: 'absolute', background: 'linear-gradient(94deg, white 63%)', borderRadius: 20}} />
     <div style={{width: 197.57, height: 50, left: 657, top: 598, position: 'absolute', textAlign: 'center', color: '#0E624E', fontSize: 36, fontFamily: 'Cairo', fontWeight: '700', wordWrap: 'break-word'}}>DONE !<br/></div>
   </div>
@@ -76,11 +71,11 @@ const Page3b = () => {
     <div style={{width: 470, height: 406, left: 1016, top: 307, position: 'absolute', background: 'white', boxShadow: '2px -2px 4px #82AFA4', borderRadius: 10}} />
     <img style={{width: 352, height: 352, left: 1069, top: 330, position: 'absolute'}} src="https://img.freepik.com/free-vector/coaching-concept-illustration_114360-26466.jpg?uid=R193089648&ga=GA1.1.1684963699.1742590911&semt=ais_hybrid" alt=""/>
     <img style={{width: 355, height: 355, left: 578, top: 330, position: 'absolute'}} src="https://img.freepik.com/free-vector/phone-conversation-concept-illustration_114360-24412.jpg?t=st=1743513443~exp=1743517043~hmac=9c73ffb7a591d7ab054ae39f29638a4bdd8762796521b43fe06875c1277a52f1&w=900" alt=""/>
-    <div style={{width: 370, height: 214, left: 1076, top: 257, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 32, fontFamily: 'Cairo', fontWeight: '600', wordWrap: 'break-word'}}>Consult To A Therapist </div>
+    <div style={{width: 370, height: 214, left: 1076, top: 307, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 32, fontFamily: 'Cairo', fontWeight: '600', wordWrap: 'break-word'}}>Consult To A Therapist </div>
     <div style={{width: 470, height: 406, left: 500, top: 713, position: 'absolute', transform: 'rotate(180deg)', transformOrigin: 'top left', background: 'white', boxShadow: '2px -2px 4px #82AFA4', borderRadius: 10}} />
-    <div style={{width: 370, height: 214, left: 569, top: 257, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 32, fontFamily: 'Cairo', fontWeight: '600', wordWrap: 'break-word'}}>Talk To Someone Close</div>
+    <div style={{width: 370, height: 214, left: 569, top: 307, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 32, fontFamily: 'Cairo', fontWeight: '600', wordWrap: 'break-word'}}>Talk To Someone Close</div>
     <img style={{width: 360, height: 360, left: 85, top: 327, position: 'absolute'}} src="https://img.freepik.com/free-vector/breathing-exercise-concept-illustration_114360-9010.jpg?t=st=1743514116~exp=1743517716~hmac=c7a621c5a4f27cbf55b8cd1d0cc98fe4dd227b82ba907cf55aaf975dde7ed6b4&w=900" alt=""/>
-    <div style={{width: 409, height: 59, left: 60, top: 257, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 32, fontFamily: 'Cairo', fontWeight: '600', wordWrap: 'break-word'}}>Do Breathing Exercises</div>
+    <div style={{width: 409, height: 59, left: 60, top: 307, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 32, fontFamily: 'Cairo', fontWeight: '600', wordWrap: 'break-word'}}>Do Breathing Exercises</div>
   </div>
 </div>
       <div>

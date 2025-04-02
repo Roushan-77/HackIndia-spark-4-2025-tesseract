@@ -23,10 +23,6 @@ const Page4 = () => {
   <div style={{width: 93, height: 24.54, left: 1324, top: 283.66, position: 'absolute', color: 'white', fontSize: 24, fontFamily: 'Instrument Sans', fontWeight: '600', wordWrap: 'break-word'}}>Help </div>
   <div style={{width: 831, height: 81, left: 583, top: 532, position: 'absolute', background: 'white', boxShadow: '4px -4px 10px #AFCDBB', borderRadius: 30}} />
   <div style={{width: 398, height: 31, left: 601, top: 547, position: 'absolute', textAlign: 'center', color: '#7C7878', fontSize: 36, fontFamily: 'Darker Grotesque', fontWeight: '400', wordWrap: 'break-word'}}>Let’s start a conversation......</div>
-  {/* <div data-size="48" style={{width: 48, height: 48, left: 1331, top: 849, position: 'absolute', overflow: 'hidden'}}>
-    <div style={{width: 40, height: 40, left: 4, top: 4, position: 'absolute', outline: '4px #0E624E solid', outlineOffset: '-2px'}} />
-  </div>
-  <div style={{width: 1026, height: 75, left: 1512, top: 74, position: 'absolute', transform: 'rotate(180deg)', transformOrigin: 'top left', background: '#249D7D'}} /> */}
   <div style={{width: 313, height: 57.78, left: 377, top: 110.78, position: 'absolute', transform: 'rotate(180deg)', transformOrigin: 'top left', background: '#0E624E', borderRadius: 15, border: '1px #0E624E solid'}} />
   <div style={{width: 149.91, height: 46.04, left: 126, top: 66, position: 'absolute', transform: 'rotate(360deg)', transformOrigin: 'top left', textAlign: 'center', color: 'white', fontSize: 24, fontFamily: 'Instrument Sans', fontWeight: '700', wordWrap: 'break-word'}}>+ New Chat</div>
   <div style={{width: 362, height: 63, left: 410, top: 650, position: 'absolute', transform: 'rotate(180deg)', transformOrigin: 'top left', background: '#0E624E', borderRadius: 15, border: '1px #0E624E solid'}} />

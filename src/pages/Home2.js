@@ -19,11 +19,10 @@ const Home2 = () => {
       </p>
       
     </div>
-    {/* <label htmlFor="exampleDataList" className="form"></label> */}
         <input className="form" style={{fontSize:'22px'}} list="datalistOptions" id="exampleDataList" placeholder="Choose a nickname..." />
       <button
       onClick={goToNextPage}
-       type="button" className="btn1 btn-light"  style={{fontSize:'12px'}} href="/button" >
+       type="button" className="btn1 btn-light"  style={{fontSize:'18px'}} href="/button" >
         SUBMIT</button>
   </div>   
     </div>

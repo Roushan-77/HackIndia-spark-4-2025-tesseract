@@ -28,21 +28,9 @@ const Home = () => {
     <div style={{width: 356, left: 121, top: 672, position: 'absolute', color: '#004C3A', fontSize: 24, fontFamily: 'Darker Grotesque', fontWeight: '400', wordWrap: 'break-word'}}>Experience round-the-clock support and guidance with a 24/7 AI therapist, always at your fingertips to help you navigate life’s challenges.</div>
     <div style={{width: 191, height: 118, left: 1180, top: 686, position: 'absolute'}}><span style={{color: '#0B4F3E', fontSize: 24, fontFamily: 'Darker Grotesque', fontWeight: '700', wordWrap: 'break-word'}}>HELP<br/></span><span style={{color: '#004C3A', fontSize: 24, fontFamily: 'Darker Grotesque', fontWeight: '500', wordWrap: 'break-word'}}>Contact Us<br/>FAQ<br/></span><span style={{color: 'black', fontSize: 24, fontFamily: 'Darker Grotesque', fontWeight: '400', wordWrap: 'break-word'}}><br/></span></div>
     <div style={{width: 1512, height: 0, left: 0, top: 481, position: 'absolute', outline: '1px black solid', outlineOffset: '-0.50px'}}></div>
-    <div data-size="48" style={{width: 30, height: 30, left: 655, top: 780, position: 'absolute', overflow: 'hidden'}}>
-      <div style={{width: 13.75, height: 25, left: 8.75, top: 2.50, position: 'absolute', outline: '4px var(--Icon-Default-Default, #1E1E1E) solid', outlineOffset: '-2px'}} />
-    </div>
-    <div data-size="48" style={{width: 30, height: 30, left: 712, top: 780, position: 'absolute', overflow: 'hidden'}}>
-      <div style={{width: 25, height: 25, left: 2.50, top: 2.50, position: 'absolute', outline: '4px var(--Icon-Default-Default, #1E1E1E) solid', outlineOffset: '-2px'}} />
-    </div>
-    <div data-size="48" style={{width: 30, height: 30, left: 769, top: 780, position: 'absolute', overflow: 'hidden'}}>
-      <div style={{width: 25, height: 23.75, left: 2.50, top: 2.50, position: 'absolute', outline: '4px var(--Icon-Default-Default, #1E1E1E) solid', outlineOffset: '-2px'}} />
-    </div>
-    <div data-size="48" style={{width: 30, height: 30, left: 826, top: 784, position: 'absolute', overflow: 'hidden'}}>
-      <div style={{width: 25, height: 20, left: 2.50, top: 5, position: 'absolute', outline: '4px var(--Icon-Default-Default, #1E1E1E) solid', outlineOffset: '-2px'}} />
-    </div>
-    <div style={{width: 24, height: 27, left: 629, top: 878, position: 'absolute', background: '#EDF2EE', borderRadius: 9999, border: '1px #2F4532 solid'}} />
-    <div style={{width: 19, height: 37, left: 636, top: 871, position: 'absolute', color: '#2F4532', fontSize: 24, fontFamily: 'Darker Grotesque', fontWeight: '400', wordWrap: 'break-word'}}>c</div>
-    <div style={{width: 269, height: 29, left: 670, top: 871, position: 'absolute', color: '#2F4532', fontSize: 24, fontFamily: 'Darker Grotesque', fontWeight: '400', wordWrap: 'break-word'}}>All copyrights are resereved</div>
+    <div style={{width: 24, height: 27, left: 629, top: 678, position: 'absolute', background: '#EDF2EE', borderRadius: 9999, border: '1px #2F4532 solid'}} />
+    <div style={{width: 19, height: 37, left: 636, top: 671, position: 'absolute', color: '#2F4532', fontSize: 24, fontFamily: 'Darker Grotesque', fontWeight: '400', wordWrap: 'break-word'}}>c</div>
+    <div style={{width: 369, height: 29, left: 670, top: 671, position: 'absolute', color: '#2F4532', fontSize: 24, fontFamily: 'Darker Grotesque', fontWeight: '400', wordWrap: 'break-word'}}>All copyrights are resereved</div>
   </div>
   <div style={{width: 1512, height: 745, left: -3, top: 982, position: 'absolute', background: 'white', overflow: 'hidden'}}>
     <div style={{width: 1185, left: 163, top: 0, position: 'absolute', textAlign: 'center', color: '#004C3A', fontSize: 70, fontFamily: 'Cormorant Upright', fontWeight: '600', wordWrap: 'break-word'}}>Relief comes when we stop judging ourselves for struggling and accept that it’s okay to seek help.</div>
@@ -66,7 +54,6 @@ const Home = () => {
     <div style={{width: 1432, height: 421, left: 0, top: 0, position: 'absolute', background: 'rgba(19, 144, 114, 0.50)', border: '1.50px white solid', backdropFilter: 'blur(50px)'}} />
     <div style={{width: 736, left: 95, top: 71, position: 'absolute', color: 'white', fontSize: 38, fontFamily: 'Darker Grotesque', fontWeight: '700', wordWrap: 'break-word'}}>CALMORA will always be by your side no matter what. Chat about your day, discuss personal issues, explore difficult topics, and gain clarity on your thoughts and emotions.</div>
     <div style={{width: 252.08, height: 84, left: 998, top: 179, position: 'absolute', background: 'linear-gradient(94deg, white 63%)', borderRadius: 20}} />
-    {/* <div style={{width: 198, height: 56, left: 1023, top: 195, position: 'absolute', textAlign: 'center', color: '#0E624E', fontSize: 30, fontFamily: 'Cairo', fontWeight: '700', wordWrap: 'break-word'}}>LET’S  TALK </div> */}
   </div>
   <div style={{width: 1512, height: 604, left: -3, top: 1886, position: 'absolute', background: 'white', overflow: 'hidden'}}>
     <div style={{width: 605, height: 138, left: 153, top: 412, position: 'absolute', background: 'white', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)', borderRadius: 10, border: '1px #249D7D solid'}} />
@@ -121,10 +108,7 @@ const Home = () => {
     <div data-style="Avatar" style={{width: 40, height: 40, left: 1296, top: 45, position: 'absolute', background: 'var(--Schemes-Primary-Container, #EADDFF)', overflow: 'hidden', borderRadius: 100}}>
       <div style={{width: 28.18, height: 25.63, left: 5.91, top: 10, position: 'absolute', background: 'var(--Schemes-On-Primary-Container, #4F378A)'}} />
     </div>
-    {/* <div style={{width: 81, height: 27, left: 493, top: 45, position: 'absolute', color: 'black', fontSize: 24, fontFamily: 'Inter', fontWeight: '500', wordWrap: 'break-word'}}>Music</div> */}
-    {/* <div style={{width: 116, height: 27, left: 644, top: 45, position: 'absolute', color: 'black', fontSize: 24, fontFamily: 'Inter', fontWeight: '500', wordWrap: 'break-word'}}>Check-up</div> */}
-    {/* <div style={{width: 123, height: 27, left: 830, top: 45, position: 'absolute', color: 'black', fontSize: 24, fontFamily: 'Inter', fontWeight: '500', wordWrap: 'break-word'}}>Quick help</div> */}
-    {/* <div style={{width: 99, height: 45, left: 50, top: 40, position: 'absolute', color: 'black', fontSize: 32, fontFamily: 'Ledger', fontWeight: '400', wordWrap: 'break-word'}}>logo</div> */}
+  
     <div style={{width: 5.02, height: 18.48, left: 1222.77, top: 68.50, position: 'absolute', transform: 'rotate(30deg)', transformOrigin: 'top left', background: '#AA75CB'}} />
     <div style={{width: 5.02, height: 18.48, left: 1213.34, top: 84.39, position: 'absolute', transform: 'rotate(-150deg)', transformOrigin: 'top left', background: '#73488D'}} />
     <div style={{width: 5.02, height: 18.48, left: 1238.15, top: 84.48, position: 'absolute', transform: 'rotate(150deg)', transformOrigin: 'top left', background: '#73488D'}} />
@@ -140,10 +124,9 @@ const Home = () => {
         <div style={{transform: 'rotate(1deg)', transformOrigin: 'top left', background: '#004C3A', borderRadius: 9999}} />
       </div>
     </div>
-    <div style={{width: 65, height: 12, left: 1048, top: 82, position: 'absolute', textAlign: 'center', color: '#053C2F', fontSize: 13, fontFamily: 'Inder', fontWeight: '400', wordWrap: 'break-word'}}>Mood Score</div>
     <div style={{width: 664, height: 262, left: 130, top: 184, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 95, fontFamily: 'Cantora One', fontWeight: '400', wordWrap: 'break-word'}}>Mental Health Website <br/></div>
+
     <div style={{width: 252.08, height: 84, left: 336, top: 714, position: 'absolute', background: 'linear-gradient(94deg, #0E624E 63%)', borderRadius: 200}} />
-    {/* <div style={{width: 197.57, height: 50, left: 363.10, top: 728, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 30, fontFamily: 'Cairo', fontWeight: '700', wordWrap: 'break-word', textShadow: '0px 4px 4px rgba(0, 0, 0, 0.40)'}}>LET’S  START</div> */}
   </div>
 </div>
 <div >
@@ -178,8 +161,7 @@ onClick={goToNextPage}
   <div style={{width: 99, height: 45, left: 50, top: 40, position: 'absolute', color: 'black', fontSize: 32, fontFamily: 'Ledger', fontWeight: '400', wordWrap: 'break-word'}}>
       <img style={{width: 50, height:50 ,borderRadius: 50}} src="https://media.istockphoto.com/id/1178300012/vector/green-ribbon-mental-health-icon.jpg?s=612x612&w=0&k=20&c=-PXiN6QdT9EVsULfqDFwogZL8yv91UMsKkgUEfCpdvU=" alt=""/>
       </div>
-  
-</div>
+    </div>
   
   );
 };

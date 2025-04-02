@@ -6,8 +6,17 @@ const Page5 = () => {
       const goToNextPage = () => {
         navigate("/");
       };
+      const goToNextPage3 = () => {
+        navigate("/next7");
+      };
+      const goToNextPage4 = () => {
+        navigate("/next2");
+      };
+      const goToNextPage5 = () => {
+        navigate("/next6");
+      };
     
-        return (
+        return (<>
             <div>
            <div style={{width: 1512, height: 982, position: 'relative', background: 'rgba(255, 255, 255, 0.15)', overflow: 'hidden'}}>
   <div style={{width: 1512, height: 1512.13, left: 139, top: 3043.66, position: 'absolute', transform: 'rotate(-90deg)', transformOrigin: 'top left', background: 'linear-gradient(91deg, rgba(89, 237, 179, 0.70) 32%, rgba(35.87, 156.53, 124.91, 0.70) 96%)', borderRadius: 30, border: '1.50px white solid', backdropFilter: 'blur(50px)'}} />
@@ -23,10 +32,6 @@ const Page5 = () => {
   <div data-style="Avatar" style={{width: 40, height: 40, left: 1296, top: 45, position: 'absolute', background: 'var(--Schemes-Primary-Container, #EADDFF)', overflow: 'hidden', borderRadius: 100}}>
     <div style={{width: 28.18, height: 25.63, left: 5.91, top: 10, position: 'absolute', background: 'var(--Schemes-On-Primary-Container, #4F378A)'}} />
   </div>
-  <div style={{width: 81, height: 27, left: 493, top: 45, position: 'absolute', color: 'black', fontSize: 24, fontFamily: 'Inter', fontWeight: '500', wordWrap: 'break-word'}}>Music</div>
-  <div style={{width: 116, height: 27, left: 644, top: 45, position: 'absolute', color: 'black', fontSize: 24, fontFamily: 'Inter', fontWeight: '500', wordWrap: 'break-word'}}>Check-up</div>
-  <div style={{width: 123, height: 27, left: 830, top: 45, position: 'absolute', color: 'black', fontSize: 24, fontFamily: 'Inter', fontWeight: '500', wordWrap: 'break-word'}}>Quick help</div>
-  <div style={{width: 99, height: 45, left: 50, top: 40, position: 'absolute', color: 'black', fontSize: 32, fontFamily: 'Ledger', fontWeight: '400', wordWrap: 'break-word'}}>logo</div>
   <div style={{width: 5.02, height: 18.48, left: 1222.77, top: 68.50, position: 'absolute', transform: 'rotate(30deg)', transformOrigin: 'top left', background: '#AA75CB'}} />
   <div style={{width: 5.02, height: 18.48, left: 1213.34, top: 84.39, position: 'absolute', transform: 'rotate(-150deg)', transformOrigin: 'top left', background: '#73488D'}} />
   <div style={{width: 5.02, height: 18.48, left: 1238.15, top: 84.48, position: 'absolute', transform: 'rotate(150deg)', transformOrigin: 'top left', background: '#73488D'}} />
@@ -43,7 +48,7 @@ const Page5 = () => {
       <div></div>
     </div>
   </div>
-  <div style={{width: 65, height: 12, left: 1048, top: 82, position: 'absolute', textAlign: 'center', color: '#053C2F', fontSize: 13, fontFamily: 'Inder', fontWeight: '400', wordWrap: 'break-word'}}>Mood Score</div>
+
   <div style={{left: 531, top: 357, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 96, fontFamily: 'Jura', fontWeight: '600', wordWrap: 'break-word'}}>Quick help</div>
   <div style={{width: 470, height: 406, left: 523, top: 517, position: 'absolute', background: 'white', boxShadow: '2px -2px 4px #82AFA4', borderRadius: 10}} />
   <div style={{width: 470, height: 406, left: 1016, top: 517, position: 'absolute', background: 'white', boxShadow: '2px -2px 4px #82AFA4', borderRadius: 10}} />
@@ -61,10 +66,6 @@ const Page5 = () => {
   <div data-style="Avatar" style={{width: 40, height: 40, left: 1296, top: 45, position: 'absolute', background: 'var(--Schemes-Primary-Container, #EADDFF)', overflow: 'hidden', borderRadius: 100}}>
     <div style={{width: 28.18, height: 25.63, left: 5.91, top: 10, position: 'absolute', background: 'var(--Schemes-On-Primary-Container, #4F378A)'}} />
   </div>
-  <div style={{width: 81, height: 27, left: 493, top: 45, position: 'absolute', color: 'black', fontSize: 24, fontFamily: 'Inter', fontWeight: '500', wordWrap: 'break-word'}}>Music</div>
-  <div style={{width: 116, height: 27, left: 644, top: 45, position: 'absolute', color: 'black', fontSize: 24, fontFamily: 'Inter', fontWeight: '500', wordWrap: 'break-word'}}>Check-up</div>
-  <div style={{width: 123, height: 27, left: 830, top: 45, position: 'absolute', color: 'white', fontSize: 24, fontFamily: 'Inter', fontWeight: '500', wordWrap: 'break-word'}}>Quick help</div>
-  {/* <div style={{width: 99, height: 45, left: 50, top: 40, position: 'absolute', color: 'black', fontSize: 32, fontFamily: 'Ledger', fontWeight: '400', wordWrap: 'break-word'}}>logo</div> */}
   <div style={{width: 5.02, height: 18.48, left: 1222.77, top: 68.50, position: 'absolute', transform: 'rotate(30deg)', transformOrigin: 'top left', background: '#AA75CB'}} />
   <div style={{width: 5.02, height: 18.48, left: 1213.34, top: 84.39, position: 'absolute', transform: 'rotate(-150deg)', transformOrigin: 'top left', background: '#73488D'}} />
   <div style={{width: 5.02, height: 18.48, left: 1238.15, top: 84.48, position: 'absolute', transform: 'rotate(150deg)', transformOrigin: 'top left', background: '#73488D'}} />
@@ -81,7 +82,6 @@ const Page5 = () => {
       <div></div>
     </div>
   </div>
-  <div style={{width: 65, height: 12, left: 1048, top: 82, position: 'absolute', textAlign: 'center', color: '#053C2F', fontSize: 13, fontFamily: 'Inder', fontWeight: '400', wordWrap: 'break-word'}}>Mood Score</div>
   <div style={{left: 481, top: 258,position: 'absolute', textAlign: 'center', color: 'white', fontSize: 96, fontFamily: 'Jura', fontWeight: '600', wordWrap: 'break-word'}}>QUICK HELP</div>
   <div style={{width: 424.47, height: 1505.77, left: 1502.52, top: 539.53, position: 'absolute', transform: 'rotate(89deg)', transformOrigin: 'top left', background: '#F3F3F3', boxShadow: '4px -4px 10px #59ED97', borderRadius: 10}} />
   <div style={{width: 470, height: 406, left: 500, top: 923, position: 'absolute', transform: 'rotate(180deg)', transformOrigin: 'top left', background: 'white', boxShadow: '2px -2px 4px #82AFA4', borderRadius: 10}} />
@@ -102,7 +102,26 @@ const Page5 = () => {
        type="button" className="btn1 btn-light"  style={{left: 270, top: 62,width: 153, height: 55, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 32, fontFamily: 'Cairo', fontWeight: '700', wordWrap: 'break-word', textShadow: '0px 4px 4px rgba(61, 58, 58, 0.86)'}} href="/button" >
         Home</button>
         </div>
-            // </div>
+         <div>
+         <button
+             onClick={goToNextPage3}
+              type="button" className="btn1 btn-light"  style={{left: 520, top: 60,width: 153, height: 50, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 22, fontFamily: 'Cairo', fontWeight: '700', wordWrap: 'break-word', textShadow: '0px 4px 4px rgba(61, 58, 58, 0.86)'}} href="/button" >
+               Music</button>
+         </div>
+         <div>
+         <button
+             onClick={goToNextPage4}
+              type="button" className="btn1 btn-light"  style={{left: 720, top: 60,width: 153, height: 50, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 22, fontFamily: 'Cairo', fontWeight: '700', wordWrap: 'break-word', textShadow: '0px 4px 4px rgba(61, 58, 58, 0.86)'}} href="/button" >
+               Check-up</button>
+         </div>
+         <div>
+         <button
+             onClick={goToNextPage5}
+              type="button" className="btn1 btn-light"  style={{left: 920, top: 60,width: 153, height: 50, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 22, fontFamily: 'Cairo', fontWeight: '700', wordWrap: 'break-word', textShadow: '0px 4px 4px rgba(61, 58, 58, 0.86)'}} href="/button" >
+               Quick help</button>
+         </div>
+         </>
+          
         );
       };
       

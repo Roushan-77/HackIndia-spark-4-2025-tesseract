@@ -9,6 +9,18 @@ const Page2 = () => {
     const goToNextPage = () => {
         navigate("/next4");
       };
+      const goToNextPage3 = () => {
+        navigate("/next7");
+      };
+      const goToNextPage4 = () => {
+        navigate("/next2");
+      };
+      const goToNextPage5 = () => {
+        navigate("/next6");
+      };
+      const goToNextPage6 = () => {
+        navigate("/");
+      };
     
         // return (
         //     <div>
@@ -64,12 +76,13 @@ const Page2 = () => {
   };
 
   return (
+    <>
     
           <div style={{
             width: 1202.74,
             height: 2485.42,
-            left: 145.98,
-            top: 99,
+            left: 105.98,
+            top: 159,
             position: "absolute",
             // transform: "rotate(26deg)",
             transformOrigin: "top left",
@@ -94,16 +107,42 @@ const Page2 = () => {
         </div>
       ))}
       <br />
-      <button onClick={handleSubmit} style={{left: 110, top: 2400,width: 203, height: 60, position: 'absolute', textAlign: 'center', color: 'blue', fontSize: 32, fontFamily: 'Cairo', fontWeight: '700', wordWrap: 'break-word', textShadow: '0px 4px 4px rgba(110, 108, 108, 0.86)', borderRadius:10,}} disabled={answers.includes("")}>
+      <button onClick={handleSubmit} style={{left: 110, top: 2100,width: 203, height: 60, position: 'absolute', textAlign: 'center', color: 'blue', fontSize: 32, fontFamily: 'Cairo', fontWeight: '700', wordWrap: 'break-word', textShadow: '0px 4px 4px rgba(110, 108, 108, 0.86)', borderRadius:10,}} disabled={answers.includes("")}>
         SUBMIT
       </button>
-      {/* <div>              */}
       <button
       onClick={goToNextPage}
-       type="button" className="btn1 btn-light"  style={{left: 1010, top: 2435,width: 203, height: 60, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 32, fontFamily: 'Cairo', fontWeight: '700', wordWrap: 'break-word', textShadow: '0px 4px 4px rgba(61, 58, 58, 0.86)'}} href="/button" >
+       type="button" className="btn1 btn-light"  style={{left: 1010, top: 2135,width: 203, height: 60, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 32, fontFamily: 'Cairo', fontWeight: '700', wordWrap: 'break-word', textShadow: '0px 4px 4px rgba(61, 58, 58, 0.86)'}} href="/button" >
         NEXT</button>
-        {/* </div> */}
     </div>
+    <div style={{width: 99, height: 45, left: 50, top: 40, position: 'absolute', color: 'black', fontSize: 32, fontFamily: 'Ledger', fontWeight: '400', wordWrap: 'break-word'}}>
+    <img style={{width: 50, height:50 ,borderRadius: 50}} src="https://media.istockphoto.com/id/1178300012/vector/green-ribbon-mental-health-icon.jpg?s=612x612&w=0&k=20&c=-PXiN6QdT9EVsULfqDFwogZL8yv91UMsKkgUEfCpdvU=" alt=""/>
+    </div>
+    <div>
+<button
+    onClick={goToNextPage3}
+     type="button" className="btn1 btn-light"  style={{left: 520, top: 60,width: 153, height: 50, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 22, fontFamily: 'Cairo', fontWeight: '700', wordWrap: 'break-word', textShadow: '0px 4px 4px rgba(61, 58, 58, 0.86)'}} href="/button" >
+      Music</button>
+</div>
+<div>
+<button
+    onClick={goToNextPage4}
+     type="button" className="btn1 btn-light"  style={{left: 720, top: 60,width: 153, height: 50, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 22, fontFamily: 'Cairo', fontWeight: '700', wordWrap: 'break-word', textShadow: '0px 4px 4px rgba(61, 58, 58, 0.86)'}} href="/button" >
+      Check-up</button>
+</div>
+<div>
+<button
+    onClick={goToNextPage5}
+     type="button" className="btn1 btn-light"  style={{left: 920, top: 60,width: 153, height: 50, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 22, fontFamily: 'Cairo', fontWeight: '700', wordWrap: 'break-word', textShadow: '0px 4px 4px rgba(61, 58, 58, 0.86)'}} href="/button" >
+      Quick help</button>
+</div>
+<div>
+<button
+    onClick={goToNextPage6}
+     type="button" className="btn1 btn-light"  style={{left: 320, top: 60,width: 153, height: 50, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 22, fontFamily: 'Cairo', fontWeight: '700', wordWrap: 'break-word', textShadow: '0px 4px 4px rgba(61, 58, 58, 0.86)'}} href="/button" >
+      Home</button>
+</div>
+</>
   );
 }
 

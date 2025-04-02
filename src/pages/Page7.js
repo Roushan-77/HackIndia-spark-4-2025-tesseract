@@ -33,6 +33,7 @@ const Page7 = () => {
   <div style={{width: 1512, height: 119, left: 0, top: 5, position: 'absolute', opacity: 0.38, background: 'rgba(255, 255, 255, 0.10)', boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.25)'}} />
   <div style={{width: 51.15, height: 7.84, left: 1385.91, top: 64.34, position: 'absolute', background: 'linear-gradient(0deg, #0E624E 0%, #0E624E 100%), #D9D9D9', borderRadius: 90}} />
   <div style={{width: 51.19, height: 7.84, left: 1437.31, top: 55.40, position: 'absolute', transform: 'rotate(180deg)', transformOrigin: 'top left', background: 'linear-gradient(0deg, #0E624E 0%, #0E624E 100%), #D9D9D9', borderRadius: 90}} />
+
   <div style={{width: 51.19, height: 7.84, left: 1437.92, top: 88.26, position: 'absolute', transform: 'rotate(180deg)', transformOrigin: 'top left', background: 'linear-gradient(0deg, #0E624E 0%, #0E624E 100%), #D9D9D9', borderRadius: 90}} />
   <div data-style="Avatar" style={{width: 40, height: 40, left: 1296, top: 50, position: 'absolute', background: 'var(--Schemes-Primary-Container, #EADDFF)', overflow: 'hidden', borderRadius: 100}}>
     <div style={{width: 28.18, height: 25.63, left: 5.91, top: 10, position: 'absolute', background: 'var(--Schemes-On-Primary-Container, #4F378A)'}} />
@@ -56,7 +57,6 @@ const Page7 = () => {
       <div></div>
     </div>
   </div>
-  <div style={{width: 65, height: 12, left: 1048, top: 87, position: 'absolute', textAlign: 'center', color: '#053C2F', fontSize: 13, fontFamily: 'Inder', fontWeight: '400', wordWrap: 'break-word'}}>Mood Score</div>
   <div style={{width: 321, height: 397, left: 420, top: 525, position: 'absolute', background: 'white', boxShadow: '4px -4px 10px #59ED97', borderRadius: 30}} />
   <img style={{width: 285, height: 285, left: 431, top: 537, position: 'absolute'}} src="https://img.freepik.com/free-vector/top-up-credit-concept-illustration_114360-7244.jpg?uid=R193089648&ga=GA1.1.1684963699.1742590911" alt="" />
   <div style={{width: 309, height: 89, left: 421, top: 823, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 24, fontFamily: 'Cairo', fontWeight: '600', wordWrap: 'break-word'}}>Listen Music And<br/> Earn 5 points</div>

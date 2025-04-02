@@ -45,9 +45,6 @@ const Page3 = () => {
         <div data-style="Avatar" style={{width: 40, height: 40, left: 1296, top: 45, position: 'absolute', background: 'var(--Schemes-Primary-Container, #EADDFF)', overflow: 'hidden', borderRadius: 100}}>
           <div style={{width: 28.18, height: 25.63, left: 5.91, top: 10, position: 'absolute', background: 'var(--Schemes-On-Primary-Container, #4F378A)'}} />
         </div>
-        {/* <div style={{width: 81, height: 27, left: 493, top: 45, position: 'absolute', color: 'white', fontSize: 24, fontFamily: 'Inter', fontWeight: '500', wordWrap: 'break-word'}}>Music</div> */}
-        {/* <div style={{width: 116, height: 27, left: 644, top: 45, position: 'absolute', color: 'white', fontSize: 24, fontFamily: 'Inter', fontWeight: '500', wordWrap: 'break-word'}}>Check-up</div> */}
-        {/* <div style={{width: 99, height: 45, left: 50, top: 40, position: 'absolute', color: 'black', fontSize: 32, fontFamily: 'Ledger', fontWeight: '400', wordWrap: 'break-word'}}>logo</div> */}
         <div style={{width: 5.02, height: 18.48, left: 1222.77, top: 68.50, position: 'absolute', transform: 'rotate(30deg)', transformOrigin: 'top left', background: '#AA75CB'}} />
         <div style={{width: 5.02, height: 18.48, left: 1213.34, top: 84.39, position: 'absolute', transform: 'rotate(-150deg)', transformOrigin: 'top left', background: '#73488D'}} />
         <div style={{width: 5.02, height: 18.48, left: 1238.15, top: 84.48, position: 'absolute', transform: 'rotate(150deg)', transformOrigin: 'top left', background: '#73488D'}} />
@@ -64,8 +61,6 @@ const Page3 = () => {
             <div></div>
           </div>
         </div>
-        <div style={{width: 65, height: 12, left: 1048, top: 82, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 13, fontFamily: 'Inder', fontWeight: '400', wordWrap: 'break-word'}}>Mood Score</div>
-        {/* <div style={{width: 123, height: 27, left: 830, top: 45, position: 'absolute', color: 'white', fontSize: 24, fontFamily: 'Inter', fontWeight: '500', wordWrap: 'break-word'}}>Quick help</div> */}
         <div style={{width: 252.08, height: 84, left: 630, top: 588, position: 'absolute', background: 'linear-gradient(94deg, white 63%)', borderRadius: 20}} />
         <div style={{width: 197.57, height: 50, left: 657, top: 598, position: 'absolute', textAlign: 'center', color: '#0E624E', fontSize: 36, fontFamily: 'Cairo', fontWeight: '700', wordWrap: 'break-word'}}>DONE !<br/></div>
       </div>
@@ -82,10 +77,10 @@ const Page3 = () => {
         <div style={{width: 470, height: 406, left: 500, top: 723, position: 'absolute', transform: 'rotate(180deg)', transformOrigin: 'top left', background: 'white', boxShadow: '2px -2px 4px #82AFA4', borderRadius: 10}} />
         <img style={{width: 406, height: 406, left: 1052, top: 317, position: 'absolute'}} src="https://img.freepik.com/free-vector/contemplating-concept-illustration_114360-3216.jpg?t=st=1743514857~exp=1743518457~hmac=6e97f2c66d46fbd10f82e51fe1f7c18189a298218598e0db1c93bba704cdffbb&w=900" alt=""/>
         <img style={{width: 364, height: 406, left: 574, top: 317, position: 'absolute'}} src="https://img.freepik.com/free-vector/chat-bot-concept-illustration_114360-5223.jpg?uid=R193089648&ga=GA1.1.1684963699.1742590911&semt=ais_hybrid" alt=""/>
-        <div style={{width: 317, height: 236, left: 584, top: 260, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 32, fontFamily: 'Cairo', fontWeight: '400', wordWrap: 'break-word'}}>Talk To Chat-bot</div>
-        <div style={{width: 301, height: 269, left: 1091, top: 259, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 32, fontFamily: 'Cairo', fontWeight: '400', wordWrap: 'break-word'}}>Meditate Yourself</div>
+        <div style={{width: 317, height: 236, left: 584, top: 315, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 32, fontFamily: 'Cairo', fontWeight: '600', wordWrap: 'break-word'}}>Talk To Chat-bot</div>
+        <div style={{width: 301, height: 269, left: 1091, top: 319, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 32, fontFamily: 'Cairo', fontWeight: '600', wordWrap: 'break-word'}}>Meditate Yourself</div>
         <img style={{width: 364, height: 374, left: 93, top: 333, position: 'absolute'}} src="https://img.freepik.com/free-vector/record-player-concept-illustration_114360-6260.jpg?uid=R193089648&ga=GA1.1.1684963699.1742590911&semt=ais_hybrid" alt=""/>
-        <div style={{width: 393, height: 59, left: 68, top: 268, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 32, fontFamily: 'Cairo', fontWeight: '400', wordWrap: 'break-word'}}>Listen Music</div>
+        <div style={{width: 393, height: 59, left: 68, top: 318, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 32, fontFamily: 'Cairo', fontWeight: '600', wordWrap: 'break-word'}}>Listen Music</div>
       </div>
     </div>
 <div >

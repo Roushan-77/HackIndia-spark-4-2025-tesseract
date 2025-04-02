@@ -6,6 +6,30 @@ const Page6 = () => {
       const goToNextPage = () => {
         navigate("/next8");
       };
+      const goToNextPage3 = () => {
+        navigate("/next7");
+      };
+      const goToNextPage4 = () => {
+        navigate("/next2");
+      };
+      const goToNextPage5 = () => {
+        navigate("/next6");
+      };
+      const goToNextPage6 = () => {
+        navigate("/");
+      };
+
+
+      const playMusic1 = () => {
+        window.location.href = "https://youtu.be/lCOF9LN_Zxs?si=GxIums4VfSvsDczg"; // Replace with your desired YouTube Music link
+        };
+        
+      const playMusic2 = () => {
+          window.location.href = "https://www.youtube.com/live/sSER7a1qKjI?si=E7VD9-mzu6lvLV6c"; // Replace with your desired YouTube Music link
+          };
+       const playMusic3 = () => {
+            window.location.href = "https://youtu.be/1ZYbU82GVz4?si=2OpNmm3pvLFL57_r"; // Replace with your desired YouTube Music link
+            };
     
         return (
             <div>
@@ -32,10 +56,6 @@ const Page6 = () => {
   <div data-style="Avatar" style={{width: 40, height: 40, left: 1296, top: 45, position: 'absolute', background: 'var(--Schemes-Primary-Container, #EADDFF)', overflow: 'hidden', borderRadius: 100}}>
     <div style={{width: 28.18, height: 25.63, left: 5.91, top: 10, position: 'absolute', background: 'var(--Schemes-On-Primary-Container, #4F378A)'}} />
   </div>
-  <div style={{width: 81, height: 27, left: 493, top: 45, position: 'absolute', color: 'black', fontSize: 24, fontFamily: 'Inter', fontWeight: '500', wordWrap: 'break-word'}}>Music</div>
-  <div style={{width: 116, height: 27, left: 644, top: 45, position: 'absolute', color: 'black', fontSize: 24, fontFamily: 'Inter', fontWeight: '500', wordWrap: 'break-word'}}>Check-up</div>
-  <div style={{width: 123, height: 27, left: 830, top: 45, position: 'absolute', color: 'black', fontSize: 24, fontFamily: 'Inter', fontWeight: '500', wordWrap: 'break-word'}}>Quick help</div>
-  <div style={{width: 99, height: 45, left: 50, top: 40, position: 'absolute', color: 'black', fontSize: 32, fontFamily: 'Ledger', fontWeight: '400', wordWrap: 'break-word'}}>logo</div>
   <div style={{width: 5.02, height: 18.48, left: 1222.77, top: 68.50, position: 'absolute', transform: 'rotate(30deg)', transformOrigin: 'top left', background: '#AA75CB'}} />
   <div style={{width: 5.02, height: 18.48, left: 1213.34, top: 84.39, position: 'absolute', transform: 'rotate(-150deg)', transformOrigin: 'top left', background: '#73488D'}} />
   <div style={{width: 5.02, height: 18.48, left: 1238.15, top: 84.48, position: 'absolute', transform: 'rotate(150deg)', transformOrigin: 'top left', background: '#73488D'}} />
@@ -52,7 +72,6 @@ const Page6 = () => {
       <div></div>
     </div>
   </div>
-  <div style={{width: 65, height: 12, left: 1048, top: 82, position: 'absolute', textAlign: 'center', color: '#004C3A', fontSize: 13, fontFamily: 'Inder', fontWeight: '400', wordWrap: 'break-word'}}>Mood Score</div>
 </div>
 <div>
 <button
@@ -60,21 +79,48 @@ const Page6 = () => {
        type="button" className="btn1 btn-light"  style={{left: 280, top: 65,width: 213, height: 55, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 32, fontFamily: 'Cairo', fontWeight: '700', wordWrap: 'break-word', textShadow: '0px 4px 4px rgba(61, 58, 58, 0.86)'}} href="/button" >
         Reward</button>
 <button
-      // onClick={goToNextPage1}
+      onClick={playMusic1}
        type="button" className="btn1 btn-light"  style={{left: 820, top: 225,width: 103, height: 45, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 20, fontFamily: 'Cairo', fontWeight: '700', wordWrap: 'break-word', textShadow: '0px 4px 4px rgba(61, 58, 58, 0.86)'}} href="/button" >
         Play
         </button>
 <button
-      // onClick={goToNextPage1}
+      onClick={playMusic2}
        type="button" className="btn1 btn-light"  style={{left: 820, top: 365,width: 103, height: 45, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 20, fontFamily: 'Cairo', fontWeight: '700', wordWrap: 'break-word', textShadow: '0px 4px 4px rgba(61, 58, 58, 0.86)'}} href="/button" >
         Play
         </button>
 <button
-      // onClick={goToNextPage1}
+      onClick={playMusic3}
        type="button" className="btn1 btn-light"  style={{left: 820, top: 500,width: 103, height: 45, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 20, fontFamily: 'Cairo', fontWeight: '700', wordWrap: 'break-word', textShadow: '0px 4px 4px rgba(61, 58, 58, 0.86)'}} href="/button" >
         Play
         </button>
 </div>
+<div style={{width: 99, height: 45, left: 50, top: 40, position: 'absolute', color: 'black', fontSize: 32, fontFamily: 'Ledger', fontWeight: '400', wordWrap: 'break-word'}}>
+      <img style={{width: 50, height:50 ,borderRadius: 50}} src="https://media.istockphoto.com/id/1178300012/vector/green-ribbon-mental-health-icon.jpg?s=612x612&w=0&k=20&c=-PXiN6QdT9EVsULfqDFwogZL8yv91UMsKkgUEfCpdvU=" alt=""/>
+      </div>
+      <div>
+  <button
+      onClick={goToNextPage3}
+       type="button" className="btn1 btn-light"  style={{left: 520, top: 60,width: 153, height: 50, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 22, fontFamily: 'Cairo', fontWeight: '700', wordWrap: 'break-word', textShadow: '0px 4px 4px rgba(61, 58, 58, 0.86)'}} href="/button" >
+        Music</button>
+  </div>
+  <div>
+  <button
+      onClick={goToNextPage4}
+       type="button" className="btn1 btn-light"  style={{left: 720, top: 60,width: 153, height: 50, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 22, fontFamily: 'Cairo', fontWeight: '700', wordWrap: 'break-word', textShadow: '0px 4px 4px rgba(61, 58, 58, 0.86)'}} href="/button" >
+        Check-up</button>
+  </div>
+  <div>
+  <button
+      onClick={goToNextPage5}
+       type="button" className="btn1 btn-light"  style={{left: 920, top: 60,width: 153, height: 50, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 22, fontFamily: 'Cairo', fontWeight: '700', wordWrap: 'break-word', textShadow: '0px 4px 4px rgba(61, 58, 58, 0.86)'}} href="/button" >
+        Quick help</button>
+  </div>
+  <div>
+  <button
+      onClick={goToNextPage6}
+       type="button" className="btn1 btn-light"  style={{left: 215, top: 635,width: 253, height: 80, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 32, fontFamily: 'Cairo', fontWeight: '900', wordWrap: 'break-word', textShadow: '0px 4px 4px rgba(61, 58, 58, 0.86)'}} href="/button" >
+        HOME</button>
+  </div>
 </div>
     );
       };

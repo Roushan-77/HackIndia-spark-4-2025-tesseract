@@ -6,6 +6,15 @@ const Page1 = () => {
   const goToNextPage = () => {
     navigate("/next3");
   };
+  const goToNextPage2 = () => {
+    navigate("/next7");
+  };
+  const goToNextPage3 = () => {
+    navigate("/next2");
+  };
+  const goToNextPage4 = () => {
+    navigate("/next6");
+  };
 
   return (
     <>
@@ -132,13 +141,13 @@ const Page1 = () => {
                 width: 664,
                 height: 262,
                 left: 416,
-                top: 304,
+                top: 204,
                 position: "absolute",
                 textAlign: "center",
                 color: "white",
                 fontSize: 105,
                 fontFamily: "Cantora One",
-                fontWeight: "400",
+                fontWeight: "600",
                 wordWrap: "break-word",
               }}
             >
@@ -220,38 +229,7 @@ const Page1 = () => {
                 }}
               />
             </div>
-            <div
-              style={{
-                width: 81,
-                height: 27,
-                left: 493,
-                top: 45,
-                position: "absolute",
-                color: "white",
-                fontSize: 24,
-                fontFamily: "Inter",
-                fontWeight: "500",
-                wordWrap: "break-word",
-              }}
-            >
-              Music
-            </div>
-            <div
-              style={{
-                width: 116,
-                height: 27,
-                left: 644,
-                top: 45,
-                position: "absolute",
-                color: "white",
-                fontSize: 24,
-                fontFamily: "Inter",
-                fontWeight: "500",
-                wordWrap: "break-word",
-              }}
-            >
-              Check-up
-            </div>
+            
             <div
               style={{
                 width: 5.02,
@@ -398,39 +376,7 @@ const Page1 = () => {
                 <div></div>
               </div>
             </div>
-            <div
-              style={{
-                width: 65,
-                height: 12,
-                left: 1048,
-                top: 82,
-                position: "absolute",
-                textAlign: "center",
-                color: "white",
-                fontSize: 13,
-                fontFamily: "Inder",
-                fontWeight: "400",
-                wordWrap: "break-word",
-              }}
-            >
-              Mood Score
-            </div>
-            <div
-              style={{
-                width: 123,
-                height: 27,
-                left: 830,
-                top: 45,
-                position: "absolute",
-                color: "white",
-                fontSize: 24,
-                fontFamily: "Inter",
-                fontWeight: "500",
-                wordWrap: "break-word",
-              }}
-            >
-              Quick help
-            </div>
+           
             <div
               style={{
                 width: 252.08,
@@ -442,23 +388,7 @@ const Page1 = () => {
                 borderRadius: 20,
               }}
             />
-            <div
-              style={{
-                width: 197.57,
-                height: 50,
-                left: 657.1,
-                top: 602,
-                position: "absolute",
-                textAlign: "center",
-                color: "#0E624E",
-                fontSize: 30,
-                fontFamily: "Cairo",
-                fontWeight: "700",
-                wordWrap: "break-word",
-              }}
-            >
-              LET’S GO
-            </div>
+            
           </div>
           <div
             style={{
@@ -1256,9 +1186,51 @@ const Page1 = () => {
           NEXT
         </button>
       </div>
+      <div>
+        <button
+          onClick={goToNextPage}
+          type="button"
+          className="btn1 btn-light"
+          style={{
+            left: 750,
+            top: 650,
+            width: 203,
+            height: 60,
+            position: "absolute",
+            textAlign: "center",
+            color: "white",
+            fontSize: 32,
+            fontFamily: "Cairo",
+            fontWeight: "700",
+            wordWrap: "break-word",
+            textShadow: "0px 4px 4px rgba(61, 58, 58, 0.86)",
+          }}
+          href="/button"
+        >
+          LET'S GO
+        </button>
+      </div>
       <div style={{width: 99, height: 45, left: 50, top: 40, position: 'absolute', color: 'black', fontSize: 32, fontFamily: 'Ledger', fontWeight: '400', wordWrap: 'break-word'}}>
       <img style={{width: 50, height:50 ,borderRadius: 50}} src="https://media.istockphoto.com/id/1178300012/vector/green-ribbon-mental-health-icon.jpg?s=612x612&w=0&k=20&c=-PXiN6QdT9EVsULfqDFwogZL8yv91UMsKkgUEfCpdvU=" alt=""/>
       </div>
+      <div>
+  <button
+      onClick={goToNextPage2}
+       type="button" className="btn1 btn-light"  style={{left: 520, top: 60,width: 153, height: 50, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 22, fontFamily: 'Cairo', fontWeight: '700', wordWrap: 'break-word', textShadow: '0px 4px 4px rgba(61, 58, 58, 0.86)'}} href="/button" >
+        Music</button>
+  </div>
+  <div>
+  <button
+      onClick={goToNextPage3}
+       type="button" className="btn1 btn-light"  style={{left: 720, top: 60,width: 153, height: 50, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 22, fontFamily: 'Cairo', fontWeight: '700', wordWrap: 'break-word', textShadow: '0px 4px 4px rgba(61, 58, 58, 0.86)'}} href="/button" >
+        Check-up</button>
+  </div>
+  <div>
+  <button
+      onClick={goToNextPage4}
+       type="button" className="btn1 btn-light"  style={{left: 920, top: 60,width: 153, height: 50, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 22, fontFamily: 'Cairo', fontWeight: '700', wordWrap: 'break-word', textShadow: '0px 4px 4px rgba(61, 58, 58, 0.86)'}} href="/button" >
+        Quick help</button>
+  </div>
     </>
   );
 };

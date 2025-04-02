@@ -44,9 +44,6 @@ const Page3a = () => {
     <div data-style="Avatar" style={{width: 40, height: 40, left: 1296, top: 45, position: 'absolute', background: 'var(--Schemes-Primary-Container, #EADDFF)', overflow: 'hidden', borderRadius: 100}}>
       <div style={{width: 28.18, height: 25.63, left: 5.91, top: 10, position: 'absolute', background: 'var(--Schemes-On-Primary-Container, #4F378A)'}} />
     </div>
-    {/* <div style={{width: 81, height: 27, left: 493, top: 45, position: 'absolute', color: 'white', fontSize: 24, fontFamily: 'Inter', fontWeight: '500', wordWrap: 'break-word'}}>Music</div>
-    <div style={{width: 116, height: 27, left: 644, top: 45, position: 'absolute', color: 'white', fontSize: 24, fontFamily: 'Inter', fontWeight: '500', wordWrap: 'break-word'}}>Check-up</div>
-    <div style={{width: 99, height: 45, left: 50, top: 40, position: 'absolute', color: 'black', fontSize: 32, fontFamily: 'Ledger', fontWeight: '400', wordWrap: 'break-word'}}>logo</div> */}
     <div style={{width: 5.02, height: 18.48, left: 1222.77, top: 68.50, position: 'absolute', transform: 'rotate(30deg)', transformOrigin: 'top left', background: '#AA75CB'}} />
     <div style={{width: 5.02, height: 18.48, left: 1213.34, top: 84.39, position: 'absolute', transform: 'rotate(-150deg)', transformOrigin: 'top left', background: '#73488D'}} />
     <div style={{width: 5.02, height: 18.48, left: 1238.15, top: 84.48, position: 'absolute', transform: 'rotate(150deg)', transformOrigin: 'top left', background: '#73488D'}} />
@@ -60,11 +57,8 @@ const Page3a = () => {
     <div style={{width: 72, height: 72, padding: 7, left: 1045, top: 30, position: 'absolute', backdropFilter: 'blur(20px)', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
       <div style={{width: 58, height: 59}}>
         <div style={{transform: 'rotate(1deg)', transformOrigin: 'top left', background: 'white', borderRadius: 9999}} />
-        <div></div>
       </div>
     </div>
-    <div style={{width: 65, height: 12, left: 1048, top: 82, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 13, fontFamily: 'Inder', fontWeight: '400', wordWrap: 'break-word'}}>Mood Score</div>
-    {/* <div style={{width: 123, height: 27, left: 830, top: 45, position: 'absolute', color: 'white', fontSize: 24, fontFamily: 'Inter', fontWeight: '500', wordWrap: 'break-word'}}>Quick help</div> */}
     <div style={{width: 252.08, height: 84, left: 630, top: 588, position: 'absolute', background: 'linear-gradient(94deg, white 63%)', borderRadius: 20}} />
     <div style={{width: 197.57, height: 50, left: 657, top: 598, position: 'absolute', textAlign: 'center', color: '#0E624E', fontSize: 36, fontFamily: 'Cairo', fontWeight: '700', wordWrap: 'break-word'}}>DONE !<br/></div>
   </div>
@@ -80,10 +74,10 @@ const Page3a = () => {
     <div style={{width: 470, height: 406, left: 1016, top: 317, position: 'absolute', background: 'white', boxShadow: '2px -2px 4px #82AFA4', borderRadius: 10}} />
     <div style={{width: 470, height: 406, left: 500, top: 723, position: 'absolute', transform: 'rotate(180deg)', transformOrigin: 'top left', background: 'white', boxShadow: '2px -2px 4px #82AFA4', borderRadius: 10}} />
     <img style={{width: 359, height: 359, left: 85, top: 344, position: 'absolute'}} src="https://img.freepik.com/free-vector/record-player-concept-illustration_114360-6260.jpg?uid=R193089648&ga=GA1.1.1684963699.1742590911&semt=ais_hybrid" alt=""/>
-    <div style={{width: 215, height: 183, left: 157, top: 263, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 32, fontFamily: 'Cairo', fontWeight: '400', wordWrap: 'break-word'}}>Listen Music</div>
+    <div style={{width: 215, height: 183, left: 157, top: 323, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 32, fontFamily: 'Cairo', fontWeight: '600', wordWrap: 'break-word'}}>Listen Music</div>
     <img style={{width: 340, height: 340, left: 579, top: 363, position: 'absolute'}} src="https://img.freepik.com/free-vector/mansplaining-concept-illustration_114360-8655.jpg?uid=R193089648&ga=GA1.1.1684963699.1742590911&semt=ais_hybrid" alt=""/>
-    <div style={{width: 392, height: 52, left: 560, top: 263, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 32, fontFamily: 'Cairo', fontWeight: '400', wordWrap: 'break-word'}}>Talk To Someone </div>
-    <div style={{width: 392, height: 52, left: 1060, top: 263, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 32, fontFamily: 'Cairo', fontWeight: '400', wordWrap: 'break-word'}}>Maintain Your Diet</div>
+    <div style={{width: 392, height: 52, left: 560, top: 323, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 32, fontFamily: 'Cairo', fontWeight: '600', wordWrap: 'break-word'}}>Talk To Someone </div>
+    <div style={{width: 392, height: 52, left: 1060, top: 323, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 32, fontFamily: 'Cairo', fontWeight: '600', wordWrap: 'break-word'}}>Maintain Your Diet</div>
     <img style={{width: 345, height: 345, left: 1083, top: 363, position: 'absolute'}} src="https://img.freepik.com/free-vector/hungry-woman-concept-illustration_114360-14747.jpg?t=st=1743514293~exp=1743517893~hmac=7d2fb55c06a8398920ba0d22e7c2aace31909430f85b32131965bc8aadefc98f&w=900" alt=""/>
   </div>
 </div>
