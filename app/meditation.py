@@ -1,5 +1,5 @@
 import time
-import pyttsx3  # Importing the text-to-speech engine
+import pyttsx3  
 
 def meditation():
     """Guides the user through a relaxing meditation session."""
@@ -19,20 +19,20 @@ def meditation():
     total_seconds = duration * 60
     print(f"\n🧘 Your {duration}-minute meditation session begins now. Close your eyes and focus on your breath...\n")
 
-    # Countdown (No reminder during the session, just the end message)
+    
     for remaining in range(total_seconds, 0, -1):
         time.sleep(1)
 
     print("\n✨ Your meditation session is complete! Take a moment to open your eyes and feel refreshed. 💙\n")
 
-    # Initialize the text-to-speech engine
+    
     engine = pyttsx3.init()
-    engine.setProperty('rate', 150)  # Set speed of speech
-    engine.setProperty('volume', 1)  # Set volume level (0.0 to 1.0)
+    engine.setProperty('rate', 150) 
+    engine.setProperty('volume', 1)  
 
-    # Make the engine say the completion message
+  
     engine.say("Your meditation session is complete. Gently open your eyes and feel refreshed.")
-    engine.runAndWait()  # Wait for the speech to finish before continuing
+    engine.runAndWait() 
 
 if __name__ == "__main__":
     meditation()

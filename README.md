@@ -3,7 +3,7 @@
  AI-driven mental health assistant designed to help users reflect on their emotions through a short 5-question wellness check. It provides personalized suggestions, offers a basic chatbot for supportive conversation, and rewards users with a temporary motivational token. The project focuses on mental well-being, privacy, and emotional support, all without requiring any login.
 
 ## description
-Mental-Health-AI is an AI-powered chatbot that helps users assess their mental well-being through interactive questions and provides personalized self-care recommendations. It also engages users in calming activities like music therapy to promote mental relaxation.
+Mental-Health-AI is an AI chatbot that helps users assess their mental well-being through interactive questions and provides personalized self-care recommendations. It also engages users in calming activities like music therapy to promote mental relaxation.
 
 ## AI inhancing in solution
 AI enhances the solution by providing personalized mental health assessments and tailored self-care recommendations based on user responses.
@@ -19,7 +19,11 @@ AI enhances the solution by providing personalized mental health assessments and
 - Personalized wellness suggestions
 - Simple supportive chatbot (rule-based)
 - **Relaxing music** for calming the user after assessment
-- **Self-care activities** suggestions (breathing,relaxation tips and other)
+- **Self-care activities**
+   > Breathing
+   > Meditation
+   > stories(can be listened)
+   > book summries(can be listened)
 - Temporary motivational token as a reward
 - Calm and relaxing UI for a positive user experience
 - Focused on mental health awareness and emotional supportt
@@ -27,7 +31,7 @@ AI enhances the solution by providing personalized mental health assessments and
 ## Workflow 
 
 1. User enters a **nickname** to make the conversation personal  
-2. User answers **5 mental health-related questions**  
+2. User answers **8 mental health-related questions**  
 3. The AI calculates a **wellness score** based on the responses  
 4. Based on the score, the AI provides **personalized suggestions**  
 5. User is given an option to either:
