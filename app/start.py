@@ -5,6 +5,7 @@ from story import read_story
 from breathing import breathing_exercise
 from meditation import meditation
 from music import play_music
+from book import read_book_summary
 
 def main():
     while True:
@@ -15,10 +16,11 @@ def main():
         print("4. Listen to a Story")
         print("5. Breathing Exercise")
         print("6. Meditation Session")
-        print("7. listen music")
-        print("8. Exit")
+        print("7. Listen to Music")
+        print("8. Audio Book")
+        print("9. Exit")
 
-        choice = input("\nPlease enter your choice (1-7): ")
+        choice = input("\nPlease enter your choice (1-9): ")
 
         if choice == '1':
             print(f"\nYour nickname is: {call_name}")  
@@ -33,16 +35,14 @@ def main():
         elif choice == '6':
             meditation()
         elif choice == '7':
-            play_music() 
+            play_music()
         elif choice == '8':
+            read_book_summary()  
+        elif choice == '9':
             print("🌟 Exiting... Take care and stay strong!")
             break  
         else:
-            print("⚠️ Invalid choice! Please enter a number between 1 and 7.")  # Error handling
+            print("⚠️ Invalid choice! Please enter a number between 1 and 9.")  
 
 if __name__ == "__main__":
     main()
-
-
-
-
